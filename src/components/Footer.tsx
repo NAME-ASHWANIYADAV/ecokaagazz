@@ -20,17 +20,14 @@ const Footer: React.FC = () => {
               <a href="https://facebook.com" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="https://instagram.com" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/kaagazzp2p/" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
               <a href="https://twitter.com" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="Twitter">
                 <Twitter size={20} />
               </a>
-              <a href="https://linkedin.com" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/kaagazz-peel-to-paper/" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
-              </a>
-              <a href="https://youtube.com" className="text-gray-300 hover:text-kaagazz-gold transition-colors" aria-label="YouTube">
-                <Youtube size={20} />
               </a>
             </div>
           </div>
@@ -90,7 +87,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-kaagazz-gold mr-2 flex-shrink-0" />
-                <span className="text-gray-300">info@kaagazz.co.in</span>
+                <span className="text-gray-300">contact@kaagazz.co.in</span>
               </li>
             </ul>
           </div>

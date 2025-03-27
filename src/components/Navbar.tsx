@@ -58,6 +58,9 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden md:flex items-center space-x-12">
+            <Link to="/" className={cn("nav-link px-4", isActive('/') && "active-nav-link")} onClick={handleNavClick}>
+              Home
+            </Link>
             <Link to="/community" className={cn("nav-link px-4", isActive('/community') && "active-nav-link")} onClick={handleNavClick}>
               Community
             </Link>

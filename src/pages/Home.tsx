@@ -4,7 +4,7 @@ import ProcessSteps from '@/components/ProcessSteps';
 import FeatureSection from '@/components/FeatureSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import CallToAction from '@/components/CallToAction';
-import { Leaf, Recycle, Users, Award, ArrowRight, Clock, BookOpen, Sprout } from 'lucide-react';
+import { Leaf, Recycle, Users, Award, ArrowRight, Clock, BookOpen, Sprout, ShieldCheck , Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import StatsBar from '@/components/StatsBar';
 import { Card, CardContent } from '@/components/ui/card';
@@ -66,23 +66,34 @@ const Home: React.FC = () => {
       title: 'Zero Waste',
       description: 'Our production cycle ensures minimal environmental impact and waste generation.',
     },
+    {
+      icon: <Globe className="w-10 h-10" />,
+      title: 'Sustainable Sourcing',
+      description: 'All raw materials are ethically sourced to support sustainable agriculture and local ecosystems.',
+    },
+    {
+      icon: <ShieldCheck className="w-10 h-10" />,
+      title: 'Safe & Non-Toxic',
+      description: 'Our products are free from harmful chemicals, ensuring safety for users and the environment.',
+    },
   ];
+
 
   // Stats data
   const stats = [
     {
       value: 50,
-      label: 'Trees Saved',
+      label: 'Trees Saving',
       suffix: 'K+',
     },
     {
       value: 200,
-      label: 'Tons of Waste Recycled',
+      label: 'Tons of Waste Recycle',
       suffix: 'T+',
     },
     {
       value: 100,
-      label: 'Local Jobs Created',
+      label: 'Local Jobs Creation',
       suffix: '+',
     },
     {
@@ -399,6 +410,58 @@ const Home: React.FC = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
                     <h3 className="text-xl text-white font-medium">Artisanal Papers</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-16 bg-kaagazz-cream">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="text-sm uppercase tracking-widest text-kaagazz-gold font-medium">Meet Our Team</span>
+            <h2 className="text-3xl md:text-4xl font-serif font-semibold mt-2 mb-8">Our Founders</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white rounded-lg shadow-medium overflow-hidden">
+              <div className="p-6">
+                <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                  <img 
+                    src="/srishti.jpg" 
+                    alt="Srishti Singh" 
+                    className="w-24 h-24 object-cover rounded-full"
+                  />
+                  <div>
+                    <h3 className="text-xl font-medium text-kaagazz-dark-brown mb-1">SRISHTI SINGH</h3>
+                    <p className="text-kaagazz-gold mb-2">
+                    Co-Founder & CEO
+                    </p>
+                    <p className="text-gray-600">
+                    A DTU alumnus and passionate entrepreneur, our CEO leads with a vision to revolutionize sustainability through innovation
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-medium overflow-hidden">
+              <div className="p-6">
+                <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                  <img 
+                    src="/hemant.jpg" 
+                    alt="Hemant Singh" 
+                    className="w-24 h-24 object-cover rounded-full"
+                  />
+                  <div>
+                    <h3 className="text-xl font-medium text-kaagazz-dark-brown mb-1">HEMANT SINGH</h3>
+                    <p className="text-kaagazz-gold mb-2">
+                    Co-Founder
+                    </p>
+                    <p className="text-gray-600">
+                    A DTU alumnus and visionary leader, He pioneers sustainable innovation with a passion for technology and impact.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -64,7 +64,8 @@ const StatsBar: React.FC<StatsBarProps> = ({ stats }) => {
   }, [isVisible, stats]);
 
   return (
-    <div ref={statsSectionRef} className="bg-kaagazz-dark-brown py-12">
+    <div ref={statsSectionRef} className="bg-kaagazz-dark-brown py-12 flex justify-center flex-col items-center">
+    <h2 className='text-white mb-10'>What is the Goal?</h2>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (

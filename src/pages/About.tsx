@@ -43,60 +43,6 @@ const About: React.FC = () => {
           </div>
         </div>
       </section>
-
-      <section className="py-16 bg-kaagazz-cream">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="text-sm uppercase tracking-widest text-kaagazz-gold font-medium">Meet Our Team</span>
-            <h2 className="text-3xl md:text-4xl font-serif font-semibold mt-2 mb-8">Our Founders</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg shadow-medium overflow-hidden">
-              <div className="p-6">
-                <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
-                  <img 
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80" 
-                    alt="Srishti Singh" 
-                    className="w-24 h-24 object-cover rounded-full"
-                  />
-                  <div>
-                    <h3 className="text-xl font-medium text-kaagazz-dark-brown mb-1">SRISHTI SINGH</h3>
-                    <p className="text-kaagazz-gold mb-2">
-                      B.Tech. (Electrical Engineering)
-                    </p>
-                    <p className="text-gray-600">
-                      Graduate from Delhi Technological University
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-medium overflow-hidden">
-              <div className="p-6">
-                <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
-                  <img 
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80" 
-                    alt="Hemant Singh" 
-                    className="w-24 h-24 object-cover rounded-full"
-                  />
-                  <div>
-                    <h3 className="text-xl font-medium text-kaagazz-dark-brown mb-1">HEMANT SINGH</h3>
-                    <p className="text-kaagazz-gold mb-2">
-                      B.Tech. (Civil Engineering)
-                    </p>
-                    <p className="text-gray-600">
-                      Graduate from Delhi Technological University
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">

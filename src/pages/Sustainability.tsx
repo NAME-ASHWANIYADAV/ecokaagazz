@@ -13,7 +13,7 @@ const Sustainability: React.FC = () => {
         cta="Learn More"
         link="/about"
         backgroundType="image"
-        backgroundSrc="https://images.unsplash.com/photo-1504567961542-e24d9439a724?auto=format&fit=crop&q=80"
+        backgroundSrc="sustainable.png"
       />
 
       <section id="commitment" className="py-16">
@@ -62,7 +62,7 @@ const Sustainability: React.FC = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1602628105062-d774467b8fea?auto=format&fit=crop&q=80" 
+                src="3r.png" 
                 alt="Kaagazz sustainable process" 
                 className="rounded-lg shadow-medium"
               />
@@ -142,7 +142,7 @@ const Sustainability: React.FC = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80" 
+                src="sustainablepartner.png" 
                 alt="Corporate partnership" 
                 className="rounded-lg shadow-medium"
               />

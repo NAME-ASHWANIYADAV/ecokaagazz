@@ -8,6 +8,7 @@ import { Leaf, Recycle, Users, Award, ArrowRight, Clock, BookOpen, Sprout } from
 import { Link } from 'react-router-dom';
 import StatsBar from '@/components/StatsBar';
 import { Card, CardContent } from '@/components/ui/card';
+const recycle = "/recycle.png";
 
 const Home: React.FC = () => {
   // Hero carousel images - updated with the correct paths
@@ -221,7 +222,7 @@ const Home: React.FC = () => {
             <div className="order-1 lg:order-2">
               <div className="relative header-image-spacing">
                 <img 
-                  src="https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&q=80" 
+                  src="recycle.png" 
                   alt="Kaagazz paper production" 
                   className="rounded-lg shadow-medium w-full object-cover"
                 />
@@ -283,7 +284,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1627309366653-8a50b0a49776?auto=format&fit=crop&q=80" 
+                src="howitworks.png" 
                 alt="Paper making process" 
                 className="rounded-lg shadow-medium w-full h-96 object-cover"
               />
@@ -362,7 +363,7 @@ const Home: React.FC = () => {
               <div className="block">
                 <div className="aspect-square relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?auto=format&fit=crop&q=80" 
+                    src="stationary.png" 
                     alt="Stationery" 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -377,7 +378,7 @@ const Home: React.FC = () => {
               <div className="block">
                 <div className="aspect-square relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1589722532875-4c5b16cd032d?auto=format&fit=crop&q=80" 
+                    src="diary.png" 
                     alt="Premium Diaries" 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -392,7 +393,7 @@ const Home: React.FC = () => {
               <div className="block">
                 <div className="aspect-square relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1613896640137-bb5b31496315?auto=format&fit=crop&q=80" 
+                    src="artisanal.png" 
                     alt="Artisanal Papers" 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

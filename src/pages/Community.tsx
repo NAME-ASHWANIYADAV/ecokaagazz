@@ -13,7 +13,7 @@ const Community: React.FC = () => {
         cta="Get Involved"
         link="/contact"
         backgroundType="image"
-        backgroundSrc="https://images.unsplash.com/photo-1547565518-938aa0a0ab8b?auto=format&fit=crop&q=80"
+        backgroundSrc="community.png"
       />
 
       <section id="get-involved" className="py-16">
@@ -68,7 +68,7 @@ const Community: React.FC = () => {
             <div className="bg-white rounded-lg shadow-medium overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-gold">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?auto=format&fit=crop&q=80" 
+                  src="paperworkshop.png" 
                   alt="Paper-making Workshop" 
                   className="w-full h-48 object-cover"
                 />
@@ -92,7 +92,7 @@ const Community: React.FC = () => {
             <div className="bg-white rounded-lg shadow-medium overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-gold">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1558443336-dbb3b9c2806b?auto=format&fit=crop&q=80" 
+                  src="exhibition.png" 
                   alt="Art Exhibition" 
                   className="w-full h-48 object-cover"
                 />
@@ -116,7 +116,7 @@ const Community: React.FC = () => {
             <div className="bg-white rounded-lg shadow-medium overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-gold">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&q=80" 
+                  src="corpo.png" 
                   alt="Corporate Sustainability Drive" 
                   className="w-full h-48 object-cover"
                 />
@@ -179,7 +179,7 @@ const Community: React.FC = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80" 
+                src="partner.png" 
                 alt="Kaagazz partnerships" 
                 className="rounded-lg shadow-medium"
               />

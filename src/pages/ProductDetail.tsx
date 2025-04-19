@@ -9,181 +9,159 @@ import { toast } from 'sonner';
 const productsData = [
   {
     id: 'p1',
-    title: 'Premium Eco Notebook - Dotted',
-    price: 299,
-    imageSrc: 'https://images.unsplash.com/photo-1573223416881-88e3073d1671?auto=format&fit=crop&q=80',
+    title: 'Stapled Notepads',
+    price: 100,
+    imageSrc: '/Stapled np3.png',
     category: 'Stationery',
     isNew: true,
-    description: 'Our premium eco-friendly notebook features 100 pages of high-quality recycled paper with a dotted pattern. Perfect for bullet journaling, sketching, or taking notes. The cover is made from recycled materials and features a minimalist design.',
+    description: 'Compact and eco-friendly, these stapled notepads are perfect for quick notes, to-do lists, and daily planning. Made from recycled paper with a simple design for everyday use.',
     features: [
-      '100% recycled paper',
-      'Dotted pattern for versatile use',
-      'Sturdy binding that lays flat when open',
-      'Bookmark ribbon and elastic closure',
-      'Pocket in back cover for loose papers'
+      '80 pages of recycled paper',
+      'Compact and lightweight',
+      'Staple binding for durability',
+      'Smooth writing surface',
+      'Ideal for everyday use'
     ],
     specifications: {
-      dimensions: '14.8 x 21 cm (A5)',
-      paperWeight: '100 GSM',
-      pageCount: '100 pages (50 sheets)',
-      binding: 'Sewn binding',
-      cover: 'Recycled cardstock'
+      dimensions: '14 x 21 cm',
+      paperWeight: '80 GSM',
+      pageCount: '80 pages (40 sheets)',
+      binding: 'Stapled',
+      cover: 'Recycled soft cover'
     }
   },
   {
     id: 'p2',
-    title: 'Handmade Journal - Classic Brown',
-    price: 599,
-    imageSrc: 'https://images.unsplash.com/photo-1589722532875-4c5b16cd032d?auto=format&fit=crop&q=80',
-    category: 'Diaries',
-    description: 'Our handmade journal features premium handcrafted paper bound in a classic brown leather cover. Each journal is unique, with slight variations that showcase its handmade quality. Ideal for journaling, sketching, or as a special gift.',
+    title: 'Spiral Notepads',
+    price: 150,
+    imageSrc: '/Spiral np2.png',
+    category: 'Stationery',
+    isNew: true,
+    description: 'Our spiral notepads are perfect for students and professionals. The strong wire binding allows for easy page turning, and the eco-paper ensures sustainable writing.',
     features: [
-      'Handcrafted recycled paper',
-      'Genuine leather cover',
-      'Hand-stitched binding',
-      'Blank, unlined pages',
-      'Tree planted for every journal sold'
+      'Wire-bound for easy flipping',
+      'Eco-friendly recycled paper',
+      'Available in multiple page styles',
+      'Flexible cover for portability',
+      'Tear-out pages with perforation'
     ],
     specifications: {
       dimensions: '15 x 22 cm',
-      paperWeight: '120 GSM',
-      pageCount: '120 pages (60 sheets)',
-      binding: 'Hand-stitched',
-      cover: 'Genuine leather'
-    }
-  },
-  {
-    id: 'p3',
-    title: 'Textured Drawing Pages - 180 GSM',
-    price: 399,
-    imageSrc: 'https://images.unsplash.com/photo-1613896640137-bb5b31496315?auto=format&fit=crop&q=80',
-    category: 'Artisanal',
-    isNew: true,
-    description: 'Our textured drawing pages are perfect for artists who appreciate high-quality paper with character. Each sheet has a unique texture that adds depth to drawings and paintings. Made from 100% recycled materials, these pages are environmentally friendly without compromising on quality.',
-    features: [
-      'Unique texture for artistic depth',
-      'Heavy 180 GSM paper for minimal bleed-through',
-      'Works well with pencil, charcoal, and light watercolor',
-      'Acid-free for archival quality',
-      'Each pack supports local artisans'
-    ],
-    specifications: {
-      dimensions: '29.7 x 42 cm (A3)',
-      paperWeight: '180 GSM',
-      pageCount: '25 sheets per pack',
-      finish: 'Textured matte',
-      material: '100% recycled cotton and hemp fibers'
+      paperWeight: '90 GSM',
+      pageCount: '100 pages (50 sheets)',
+      binding: 'Spiral-bound',
+      cover: 'Flexible recycled cover'
     }
   },
   {
     id: 'p4',
-    title: 'Corporate Branding Kit - 100 Sheets',
-    price: 1299,
-    imageSrc: 'https://images.unsplash.com/photo-1551592398-c320012bc1c6?auto=format&fit=crop&q=80',
+    title: 'A4- 200 Sheets',
+    price: 300,
+    imageSrc: '/A4 size sheet 1.png',
     category: 'Custom',
-    description: 'Elevate your corporate brand with our premium eco-friendly branding kit. Includes 100 sheets of letterhead, 50 business cards, and 25 notepads, all made from recycled materials. Custom printed with your company logo and information for a professional, sustainable business identity.',
+    description: 'A pack of 200 eco-conscious A4 sheets, perfect for printing, sketching, or professional use. Crafted from recycled fibers for sustainability without compromising quality.',
     features: [
-      'Customized with your company branding',
-      'Premium printing quality',
-      'Eco-friendly, recycled materials',
-      'Available in various paper finishes',
-      'Sustainable packaging for shipping'
+      'Standard A4 size',
+      'Compatible with all printers',
+      'Smooth texture for professional finish',
+      'Recycled and acid-free',
+      'Ideal for office and school use'
     ],
     specifications: {
-      contents: 'Letterhead (100), Business Cards (50), Notepads (25)',
-      paperWeight: 'Letterhead: 120 GSM, Business Cards: 300 GSM, Notepads: 80 GSM',
-      printing: 'Soy-based inks, full color',
-      turnaround: '7-10 business days',
-      minimumOrder: '1 kit'
+      dimensions: '21 x 29.7 cm (A4)',
+      paperWeight: '80 GSM',
+      pageCount: '200 sheets',
+      finish: 'Smooth matte',
+      material: '100% recycled paper'
     }
   },
   {
     id: 'p5',
-    title: 'Eco-friendly Gift Box Set',
-    price: 799,
-    imageSrc: 'https://images.unsplash.com/photo-1577401239170-897942555fb3?auto=format&fit=crop&q=80',
+    title: 'Seed Pencil Each',
+    price: 30,
+    imageSrc: '/seepd pencil 2.png',
     category: 'Stationery',
-    description: 'Our eco-friendly gift box set is the perfect present for the eco-conscious stationery lover. The set includes a handmade notebook, a set of recycled paper pens, natural wax seals, and organic hemp twine, all packaged in a beautiful gift box made from recycled materials.',
+    description: 'Eco-friendly seed pencils that grow into plants after use. Made from recycled newspaper with a seed capsule at the end – a fun and sustainable writing tool.',
     features: [
-      'Complete gift set for stationery lovers',
-      'All items made from sustainable materials',
-      'Stylish, minimalist design',
-      'Ready to gift in recycled packaging',
-      'Supports multiple eco-initiatives'
+      'Made from recycled newspaper',
+      'Contains plantable seed capsule',
+      'Safe, non-toxic materials',
+      'Great for kids and adults',
+      'Promotes green habits'
     ],
     specifications: {
-      contents: 'Notebook (1), Recycled Pens (3), Wax Seals (10), Hemp Twine (5m)',
-      dimensions: 'Gift Box: 25 x 20 x 5 cm',
-      materials: 'Recycled paper, plant-based plastics, natural wax, organic hemp',
-      weight: '450g',
-      customization: 'Add a personalized note (optional)'
+      length: '17.5 cm',
+      materials: 'Recycled newspaper, graphite core',
+      seeds: 'Variety (herbs/flowers)',
+      packaging: 'Biodegradable pouch',
+      usage: 'Write, plant, grow!'
     }
   },
   {
     id: 'p6',
-    title: 'Leather-bound Diary with Handmade Paper',
-    price: 899,
-    imageSrc: 'https://images.unsplash.com/photo-1588411393236-d2524cca2184?auto=format&fit=crop&q=80',
+    title: 'Cork Diary',
+    price: 600,
+    imageSrc: '/COrk Diary 3.png',
     category: 'Diaries',
-    description: 'Our leather-bound diary features premium handmade paper encased in a luxurious genuine leather cover. The paper is acid-free and fountain pen friendly, while the leather develops a beautiful patina over time. A perfect heirloom-quality journal to record your thoughts and memories.',
+    description: 'A sustainable diary bound in natural cork material. Soft, flexible, and eco-conscious, perfect for journaling or note-taking with a touch of nature.',
     features: [
-      'Premium handmade paper pages',
-      'Genuine leather cover that ages beautifully',
-      'Refillable design for lifetime use',
-      'Fountain pen friendly paper',
-      'Traditional bookbinding techniques'
+      'Natural cork cover',
+      'Smooth eco-paper inside',
+      'Elastic band closure',
+      'Back pocket for storage',
+      'Pen loop included'
     ],
     specifications: {
-      dimensions: '18 x 25 cm',
-      paperWeight: '110 GSM',
-      pageCount: '200 pages (100 sheets)',
-      binding: 'Traditional Coptic stitching',
-      cover: 'Full-grain vegetable-tanned leather'
+      dimensions: '15 x 21 cm',
+      paperWeight: '100 GSM',
+      pageCount: '120 pages (60 sheets)',
+      binding: 'Sewn binding',
+      cover: 'Natural cork'
     }
   },
   {
     id: 'p7',
-    title: 'Watercolor Paper Pad - 300 GSM',
+    title: 'Artisanal Sheets',
     price: 499,
-    imageSrc: 'https://images.unsplash.com/photo-1606729913303-aca13b7f1793?auto=format&fit=crop&q=80',
+    imageSrc: '/sheet 3.png',
     category: 'Artisanal',
-    description: 'Our watercolor paper pad features 15 sheets of heavy 300 GSM paper perfect for watercolor painting. The cold-pressed surface provides ideal texture for watercolor techniques, while the acid-free composition ensures your artwork remains vibrant for years to come. Made from sustainable sources with traditional papermaking methods.',
+    description: 'Beautifully textured artisanal paper crafted by local artisans using traditional methods. Ideal for sketching, painting, calligraphy, or special craft projects.',
     features: [
-      'Heavy 300 GSM paper for wet media',
-      'Cold-pressed texture ideal for watercolors',
-      'Minimal buckling when wet',
-      'Acid-free for archival quality',
-      'Made using traditional methods'
+      'Handcrafted textured finish',
+      'Suitable for multiple media',
+      'Eco-conscious production',
+      'Adds uniqueness to artwork',
+      'Supports local artisans'
     ],
     specifications: {
-      dimensions: '23 x 30.5 cm',
-      paperWeight: '300 GSM',
-      pageCount: '15 sheets',
-      finish: 'Cold-pressed',
-      material: 'Cotton fiber from sustainable sources'
+      dimensions: 'A4 size (21 x 29.7 cm)',
+      paperWeight: '180 GSM',
+      pageCount: '25 sheets',
+      finish: 'Rough textured',
+      material: 'Recycled cotton fibers'
     }
   },
   {
     id: 'p8',
-    title: 'Premium Business Cards - 100 Pack',
-    price: 699,
-    imageSrc: 'https://images.unsplash.com/photo-1606729913303-aca13b7f1793?auto=format&fit=crop&q=80',
+    title: 'A3- 20 Sheets',
+    price: 400,
+    imageSrc: '/A4 2.png',
     category: 'Custom',
     isNew: true,
-    description: 'Make a lasting impression with our premium business cards made from recycled paper. Each card is thick and durable with a luxurious feel that sets your business apart. Customized with your logo and information, these cards are printed with eco-friendly inks and finished with a subtle matte coating.',
+    description: 'Oversized A3 eco-paper sheets for creative projects, posters, or large-format printing. Made from sustainably sourced recycled fibers.',
     features: [
-      'Premium thick recycled cardstock',
-      'Custom printed with your design',
-      'Eco-friendly soy-based inks',
-      'Elegant matte finish',
-      'Comes in a reusable storage box'
+      'Large A3 format',
+      'Ideal for posters & presentations',
+      'Eco-friendly paper quality',
+      'Works with inkjet and laser printers',
+      'Smooth and durable finish'
     ],
     specifications: {
-      dimensions: '85 x 55 mm (standard)',
-      paperWeight: '350 GSM',
-      quantity: '100 cards per pack',
-      printing: 'Double-sided, full color',
-      finish: 'Premium matte'
+      dimensions: '29.7 x 42 cm (A3)',
+      paperWeight: '100 GSM',
+      pageCount: '20 sheets',
+      finish: 'Smooth matte',
+      material: '100% recycled wood pulp'
     }
   }
 ];

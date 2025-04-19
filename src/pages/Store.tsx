@@ -49,8 +49,8 @@ const Store: React.FC = () => {
     },
     {
       id: 'p7',
-      title: 'Artisanal Sheets',
-      price: 499,
+      title: 'Artisanal Sheets- 20 Sheets',
+      price: 400,
       imageSrc: 'sheet 3.png',
       category: 'Artisanal',
     },
